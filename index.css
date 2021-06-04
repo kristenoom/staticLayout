@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    background-color: white;
+    color: #252b33;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.4375;    
+}
+h1, h2, h3, .h1, .h2, .h3 {
+    margin-bottom: 11.5px;
+    margin-top: 23px;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: inherit;
+    font-weight: 400;
+    line-height: 1.1;
+    color: inherit;
+}
+
+h3, .h3 {
+    font-size: 22px;
+}
+
+.row {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+/*NAVIGATION*/
+.dist-nav {
+    position: absolute;
+    height: 128px;
+    border-bottom: 1px solid #d3d5d6;
+    background: #f4f4f5;
+    display: flex;
+    flex-direction: column;
+    transition: .3s transform
+}
+
+.dist-nav > container {
+    position: relative;
+    display: flex;
+    flex: 1 0 auto;
+    align-items: center;
+    margin-bottom: 0;
+    background-color: #d3d5d6;
+}
+
+.logo {
+    position: relative;
+    min-width: 150px;
+    height: 26px;
+    margin: auto 0;
+}
+
+.nav-links {}
+
+.toggle {}
+
+.coronavirusBanner {
+    background: #252b33;
+    color: #fff;
+    font-size: 18px;
+    padding: 22px 0;
+}
+
+/*CAROUSEL*/
+
+
+
+
+/*NEW PRODUCTS SECTION*/
+.responsiveImage img {
+    display: block;
+    height: 100%;
+    left: 0;
+    object-fit: cover; /* used to specify how an <img> or <video> should be resized to fit its container */
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.newProducts {
+    border-radius: 50%;
+}
+.readMore {
+    align-items: center;
+    display: inline-flex;
+    justify-content: center;
+}
+
+/* HELPFUL TOOLS */
+@media (min-width: 768px) .helpfulToolsRow {
+    padding: 45px 0 15px;
+}
+
+.helpfulTool h3 {
+    line-height: 1.4375;
+}
+
+.element--icon {
+    align-items: center;
+    display: inline-flex;
+    height: 1em;
+    justify-content: center;
+    width: 1em;
+}
+
+.helpful-tool-icon {
+    font-size: 72px;
+    line-height: 0;
+}
+
+
