@@ -6,127 +6,268 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Water-Efficient Commercial Bathroom Products | Sloan</title>
-    <link rel="stylesheet" href="index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
-    <header>
-        <nav class="dist-nav">
-            <div class="container">
-                <a href="" class="nav-links">DesignSpec</a>
-                <a href="" class="nav-links">Spec Finder</a>
-                <a href="" class="nav-links">Where to Buy</a>
-                <a href="" class="nav-links">One Sloan</a>
-                <div class="lang-switch">
-                    <a href="" type="button" id="languageDrop">
-                        <span class="en"></span>
-                    </a>
-                    <ul aria-labelledby="languageDrop" class="dropdownMenu">
-                        <li>
-                            <a href="/" hreflang="en">English</a>
+<div class="body-wrap">
+    <header class="site-header">
+        <nav class="navbar navbar-expand-lg navbar">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">DesignSpec</a>
                         </li>
-                        <li>
-                            <a href="/es" hreflang="es">Spanish</a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Spec Finder</a>
                         </li>
-                        <li>
-                            <a href="/zh" hreflang="zh">Chinese</a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Where to Buy</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">One Sloan</a>
                         </li>
                     </ul>
                 </div>
-                <div>
-                    <a href="" target="_blank" style="text-transform:uppercase">My Account</a>
-                    <ul>
-                        <li><a href="" target="_blank">Login</a></li>
-                        <li><a href="" target="_blank">Create an Account</a></li>
-                    </ul>
-                </div>
+                <a class="navbar-brand" href="#"></a>
+                <a class="navbar-brand" id="myAccount" href="#">My Account</a>
             </div>
         </nav>
-        <nav class="main-nav">
-            <img class="logo" src="https://www.sloan.com/themes/sloan/build/img/sloan-logo.svg" alt="Sloan logo">
-            <a href="" target="_blank" class="toggle">Design</a>
-            <a href="" target="_blank" class="toggle">Products</a>
-            <a href="" target="_blank" class="toggle">Resources</a>
-            <a href="" target="_blank" class="toggle">Company</a>
-            <a href="" target="_blank" class="toggle">Sustainability</a>
+        <nav class="navbar navbar-expand-lg navbar">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img src="https://www.sloan.com/themes/sloan/build/img/sloan-logo.svg" alt="Sloan company logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Design</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Resources</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Company</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sustainability</a>
+                    </li>
+                    </ul>
+                </div>
+                <!-- SEARCH BAR -->
+            </div>
         </nav>
     </header>
-    <section>
-        <div class="carousel">
-
+    <section class="main-carousel">
+        <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6" aria-label="Slide 7"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="5000">
+                    <img src="./assets/Globe-Life-Field-Hero_0.jpeg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                    <h5>Globe Life Field</h5>
+                    <p>The state-of-the-art facility and new home to Major League Baseball’s Texas Rangers.</p>
+                    <a href="#" type="button" class="btn btn-success">View Case Study</a>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="5000">
+                <img src="./assets/funding-jumbotron.jpeg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Coronavirus Relief Stimulus Funding</h5>
+                    <p>How to use your Coronavirus Relief Stimulus Funding to update your facility to touch-free.</p>
+                    <a href="#" type="button" class="btn btn-success">Learn More</a>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="5000">
+                <img src="./assets/sensor-jumbotron.jpeg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Touch-free Future</h5>
+                    <p>The products sense you, everyone will sense your commitment to hygiene.</p>
+                    <a href="#" type="button" class="btn btn-success">Learn More</a>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="5000">
+                <img src="./assets/sloan-image-library-jumbotron-xl.jpeg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Sloan Image Library</h5>
+                    <p>Search Sloan's extensive image library to inspire your next project.</p>
+                    <a href="#" type="button" class="btn btn-success">View Library</a>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="5000">
+                <img src="./assets/sloan-lookbook-office_2.jpeg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>White Paper</h5>
+                    <p>Gaining an Accurate Estimate of Water Demand in Buildings</p>
+                    <a href="#" type="button" class="btn btn-success">View White Paper</a>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="5000">
+                <img src="./assets/WR-Nash-Feature_0.jpeg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>William R. Nash, Inc.</h5>
+                    <p>Creating an entirely touch-free experience in the restroom and beyond.</p>
+                    <a href="#" type="button" class="btn btn-success">View Case Study</a>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="5000">
+                <img src="./assets/burns-science-tech-jumbo.jpeg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Burns Science and Technology Charter School</h5>
+                    <p>Adding hygienic, aesthetic, and vandal-resistant benefits.</p>
+                    <a href="#" type="button" class="btn btn-success">View Case Study</a>
+                </div>
+            </div>
         </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
     </section>
     <section>
         <div class="coronavirusBanner">As the coronavirus (COVID-19) is a growing global concern, Sloan remains committed to health and safety. 
-            <a href="" class="readMore">
+            <a href="https://google.com" class="readMore">
                 <span>Read more</span>
                 <i class="element icon element--icon"></i>
             </a>
         </div>
     </section>
-    <section></section>
-    <section>
-        <div class="carousel">
-            <div class="left carousel-control">
-
+    <section class="newProducts">
+        <header>
+            <h2>New Sloan Products</h2>
+        </header>
+        <section class="newProducts-carousel">
+            <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row-cols-1 row-cols-md-3 g-4">
+                            <div class="row">
+                                <div class="card-group">
+                                    <div class="card h-100" style="width: 18rem;">
+                                        <img src="./assets/engravings-new.jpeg" class="card-img-top" alt="Custom Sloan Laser Engravings">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Sloan Laser Engravings</h5>
+                                            <p class="card-text">Custom engravings for faucets and flushometers.</p>
+                                            <a href="#" class="card-link">Read more </a>
+                                        </div>
+                                    </div>
+                                    <div class="card h-100" style="width: 18rem;">
+                                        <img src="./assets/mhw-new.jpeg" class="card-img-top" alt="mobile handwashing stations">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Sloan Mobile Handwashing Stations</h5>
+                                            <p class="card-text">Make hygiene available everywhere, not just in the restroom.</p>
+                                            <a href="#" class="card-link">Read more</a>
+                                        </div>
+                                    </div>
+                                    <div class="card h-100" style="width: 18rem;">
+                                        <img src="./assets/Clark-Rush-Square.jpeg" class="card-img-top" alt="Clark Rush Square faucet and soap dispenser installation">
+                                        <div class="card-body">
+                                            <h5 class="card-title">New faucet and soap dispensers</h5>
+                                            <p class="card-text">New spout designs include cylindrical and geometric forms to fit modern applications.</p>
+                                            <a href="#" class="card-link">Read more </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/sensor-jumbotron.jpeg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Touch-free Future</h5>
+                        <p>The products sense you, everyone will sense your commitment to hygiene.</p>
+                        <a href="#" type="button" class="btn btn-success">Learn More</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/sloan-lookbook-office_2.jpeg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>White Paper</h5>
+                        <p>Gaining an Accurate Estimate of Water Demand in Buildings</p>
+                        <a href="#" type="button" class="btn btn-success">View White Paper</a>
+                    </div>
+                </div>
             </div>
-            <div class="carousel-inner">
-                <figure class="responsiveImage">
-                    <img class="newProducts" src="https://www.sloan.com/sites/default/files/2020-12/engravings-new.jpg" alt="custom Sloan Laser Engavings" />
-                </figure>
-                <h3><a href="" target="_blank">Sloan Laser Engravings</a></h3>
-                <p>Custom engraving for faucets and flushometers.</p>
-                <p>
-                    <a href="" target="_blank" class="readMore">
-                        <span>Read more</span>
-                    </a>
-                </p>
-                <figure class="responsiveImage">
-                    <img class="newProducts" src="https://www.sloan.com/design/innovations/innovations-design/mobile-handwashing-station" alt="mobile handwashing station" />
-                </figure>
-                <h3><a href="" target="_blank">Sloan Laser Engravings</a></h3>
-                <p>Custom engraving for faucets and flushometers.</p>
-                <p>
-                    <a href="" target="_blank" class="readMore">
-                        <span>Read more</span>
-                    </a>
-                </p>
-                <figure class="responsiveImage">
-                    <img class="newProducts" src="https://www.sloan.com/design/innovations/innovations-design/clark-street-and-rush-street" alt="new faucets and soap dispensers" />
-                </figure>
-                <h3><a href="" target="_blank">Sloan Laser Engravings</a></h3>
-                <p>Custom engraving for faucets and flushometers.</p>
-                <p>
-                    <a href="" target="_blank" class="readMore">
-                        <span>Read more</span>
-                    </a>
-                </p>
-            </div>
-            <div class="right carousel-control">
-                
-            </div>
-        </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </section>
     </section>
-    <section>
+    <section class="helpful-tools">
         <header>
             <h2>Helpful Tools</h2>
             <p>Don't know where to start? Use these simple tools to help you find the perfect products for your space.</p>
         </header>
-        <div class="row">
-            <div class="helpfulToolsRow row">
-                <div class="helpfulTool">
-                    <a href="" target="_blank"><i class="glyphicon glyphicon-map-marker"></i></a>
-                    <h3>Find a Sloan sales rep or product vendor</h3>
-                </div>
-                <div class="helpfulTool">
-                    <a href="" target="_blank"><i class="element icon element--icon helpful-tool-icon"></i></a>
-                    <h3>Quick search products for your project</h3>
-                </div>
-                <div class="helpfulTool">
-                    <a href="" target="_blank"><i class="element icon element--icon helpful-tool-icon"></i></a>
-                    <h3>Download product resources</h3>
-                </div>
+        <div class="col">
+            <div class="helpfulTool">
+                <a href="https://google.com" target="_blank"><i class="glyphicon glyphicon-map-marker"></i></a>
+                <h3>Find a Sloan sales rep or product vendor</h3>
+            </div>
+            <div class="helpfulTool">
+                <a href="https://google.com" target="_blank"><i class="element icon element--icon helpful-tool-icon"></i></a>
+                <h3>Quick search products for your project</h3>
+            </div>
+            <div class="helpfulTool">
+                <a href="https://google.com" target="_blank"><i class="element icon element--icon helpful-tool-icon"></i></a>
+                <h3>Download product resources</h3>
             </div>
         </div>
     </section>
+    <hr>
+    <section class="recentCaseStudies">
+        <div class="col">
+            <h3>Recent Case Studies</h3>
+            <div>
+                <div class="recent-case-study">
+                    <a href="https://www.sloan.com/design/installations/case-studies/education/university-california-san-diego">
+                        <div class="image" style="background-image: url(https://www.sloan.com/sites/default/files/2021-06/UC-San-Diego-Hero.jpg) no-repeat;"></div>
+                    </a>
+                </div>
+            </div>
+            <div>
+                <div class="recent-case-study">
+                    <a href="https://www.sloan.com/design/installations/case-studies/entertainment/globe-life-field">
+                        <div class="image" style="background-image: url(https://www.sloan.com/sites/default/files/2021-05/Globe-Life-Field-Hero.jpg) no-repeat;"></div>
+                    </a>
+                </div>
+            </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+</div>
 </body>
 </html>

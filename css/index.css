@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+
+body {
+    position: fixed;
+    overflow: hidden;
+}
+
+body > .body-wrap {
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    width: 100%;
+}
+.visually-hidden {
+    display:none;
+}
+
+body {
+    background-color: white;
+    color: #252b33;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.4375;
+    width: 100%;
+    height: 100%;
+}
+
+h1, h2, h3, .h1, .h2, .h3 {
+    margin-bottom: 11.5px;
+    margin-top: 23px;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: inherit;
+    font-weight: 400;
+    line-height: 1.1;
+    color: inherit;
+}
+
+h3, .h3 {
+    font-size: 22px;
+}
+
+.row {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+a {
+    text-decoration:''
+}
+
+/*NAVIGATION*/
+.dist-nav {
+    position: absolute;
+    height: 47.63px;
+    border-bottom: 1px solid #d3d5d6;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    transition: .3s transform;
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+
+.dist-nav > container {
+    position: relative;
+    display: flex;
+    flex: 1 0 auto;
+    align-items: center;
+    margin-bottom: 0;
+    background-color: #d3d5d6;
+    align-content: center;
+}
+
+.main-nav {
+    font-size: 1.8rem;
+    height: 79.38px;
+}
+
+.logo {
+    position: relative;
+    min-width: 150px;
+    height: 26px;
+    margin: auto 0;
+}
+
+#myAccount {
+    text-transform: uppercase;
+}
+
+/*.nav-links {}*/
+
+.toggle {
+    border: 0;
+    color: #252b33;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.42857;
+    position: relative;
+    text-transform: capitalize;transition: color 200ms 
+}
+
+
+
+/*CAROUSEL*/
+
+.main-carousel {
+    /*height: 1200px;*/
+    /*setting a height is screwing with my other elements */
+}
+
+.carousel-indicators {
+    height: 100%;
+    margin: 0 5px;
+    width: 12px;
+}
+
+.carousel-indicators .active {
+    color: var(--blue);
+}
+
+.carousel-indicators:not(.active) {
+    color: #FFF;
+}
+
+.carousel-item {
+    margin-bottom: 65%;
+    margin: 0 auto 30px;
+}
+.carousel-item h5 {
+    font-size: 22px;
+    font-weight: 500 !important;
+}
+
+.carousel-item p {
+    font-size: 36px;
+    font-weight: 200 !important;
+}
+
+.carousel-item img {
+    height: 750px;
+}
+
+.carousel-caption {
+    margin-bottom: 275px;
+}
+
+.btn-success {
+    background-color: var(--green);
+    border: var(--green);
+    border-radius: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* CORONAVIRUS BANNER */
+.coronavirusBanner {
+    background: var(--banner);
+    color: #fff;
+    font-size: 18px;
+    margin-top: -30px;
+    padding: 22px 0;
+    text-align: center;
+}
+
+/*NEW PRODUCTS SECTION*/
+.newProducts header h2 {
+    font-size: 36px;
+    margin: 0 0 30px;
+    margin-top: 75px;
+    text-align: center;
+}
+.card-group {
+    width: 75%;
+    align-content: center;
+}
+
+.card img {
+    border-radius: 50%;
+    height: 350px;
+    width: 350px;
+}
+.card-title {
+    font-size: 22px;
+    text-align: center;
+}
+
+.card-text {
+    font-size: 14px;
+    text-align: center;
+}
+
+/* .responsiveImage img {
+    display: block;
+    height: 100%;
+    left: 0;
+    object-fit: cover; used to specify how an <img> or <video> should be resized to fit its container 
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.newProducts {
+    border-radius: 50%;
+}
+.readMore {
+    align-items: center;
+    display: inline-flex;
+    justify-content: center;
+} */
+
+/* HELPFUL TOOLS */
+.col {
+    display: flex;
+    height: 100%;
+    /*padding: 15px;*/
+}
+
+.col > div:nth-child(1) {
+    flex: 1;
+}
+
+.col > div:nth-child(2) {
+    flex: 1;
+}
+
+.col > div:nth-child(3) {
+    flex: 1;
+}
+
+.helpfulTool h3 {
+    line-height: 1.4375;
+}
+
+.element--icon {
+    align-items: center;
+    display: inline-flex;
+    height: 1em;
+    justify-content: center;
+    width: 1em;
+}
+
+.helpful-tool-icon {
+    font-size: 72px;
+    line-height: 0;
+}
+
+
