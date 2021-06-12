@@ -5,3 +5,25 @@
     --blue: #006bb6;
     --banner: #232323;
 }
+
+.navbar-items {
+    text-align: center;
+}
+
+.navbar-brand {
+    text-align: center;
+}
+
+.navbar-brand img {
+    min-width: 160px;
+    width: 160px;
+}
+
+.nav-link {
+    color: darkslategrey;
+}
+
+#myAccount {
+    color: var(--blue);
+    font-size: 1.4rem;
+}

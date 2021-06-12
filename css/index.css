@@ -108,10 +108,10 @@ a {
 
 /*CAROUSEL*/
 
-.main-carousel {
+/*.main-carousel {
     /*height: 1200px;*/
     /*setting a height is screwing with my other elements */
-}
+
 
 .carousel-indicators {
     height: 100%;
