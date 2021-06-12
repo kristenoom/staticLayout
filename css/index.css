@@ -189,8 +189,8 @@ a {
     text-align: center;
 }
 
-.card-text {
-    font-size: 14px;
+p.card-text {
+    font-size: 16px;
     text-align: center;
 }
 
@@ -214,6 +214,9 @@ a {
 } */
 
 /* HELPFUL TOOLS */
+.helpful-tools {
+    text-align: center;
+}
 .col {
     display: flex;
     height: 100%;
@@ -234,6 +237,7 @@ a {
 
 .helpfulTool h3 {
     line-height: 1.4375;
+    font-size: 22px;
 }
 
 .element--icon {
@@ -250,3 +254,42 @@ a {
 }
 
 
+/*CASE STUDIES */
+.recentCaseStudies h2 {
+    text-align: center;
+}
+.recent-case-study a {
+    color: white;
+    text-decoration: none;
+}
+#sanDiegoCS {
+    background: url(./assets/UC-San-Diego-Hero.jpeg) no-repeat;
+    background-position: center;
+    width: 570px !important;
+    height: 570px !important;
+}
+#globeLifeCS {
+    background: url(./assets/Globe-Life-Field-Hero.jpeg) no-repeat;
+    background-position: center;
+    width: 570px !important;
+    height: 570px !important;
+}
+
+.recent-case-study h3 {
+    color:white;
+    line-height: 1.4375;
+    font-size: 22px;
+}
+.col {
+    display: flex;
+    height: 100%;
+    /*padding: 15px;*/
+}
+
+.col > div:nth-child(1) {
+    flex: 1;
+}
+
+.col > div:nth-child(2) {
+    flex: 1;
+}
