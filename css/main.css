@@ -22,6 +22,12 @@
 .nav-link {
     color: darkslategrey;
 }
+.navbar-nav {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
 
 #myAccount {
     color: var(--blue);
